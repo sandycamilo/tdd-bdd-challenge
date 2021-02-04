@@ -8,14 +8,17 @@ const sayHello = () => {
 
 const area = (w, h) => {
   // should return the area
+  return w * h 
 }
 
 const perimeter = (w, h) => {
   // should return the perimeter
+  return 2 * w + 2 * h
 }
 
 const circleArea = r => {
   // should return the area of the circle
+  return Math.PI * r**2
 }
 
 // ========================================================
